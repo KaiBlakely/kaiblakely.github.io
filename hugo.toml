@@ -1,3 +1,16 @@
 baseURL = 'https://kaiblakely.github.io'
 languageCode = 'en-us'
-title = "Kai Blakely's Drones"
+title = "Kai Blakely"
+theme = "gallery"
+
+[module]
+  [[module.imports]]
+    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
+    
+[params]
+  [params.socialIcons]
+    instagram = "https://www.instagram.com/"
+    youtube = "https://www.youtube.com/"
+    email = "mailto:user@example.com"
+    facebook = "https://www.facebook.com/"
+    linkedin = "https://linkedin.com/"
